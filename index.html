@@ -14,9 +14,15 @@
 	<div class="tab">
 	  <h1> Christopher Miller</h1>
 	  <div class="floater">
+<<<<<<< HEAD
 		  <a href="about_me.html">About</a>
 		  <a href="portfolio_tab.html">Portfolio</a>
 		  <a href="Contact_me.html">Contact</a>
+=======
+		  <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+		  <button class="tablinks" onclick="openCity(event, 'Portfolio')">Portfolio</button>
+		  <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+>>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 		</div>
 	</div>
 
@@ -29,6 +35,7 @@
 		</div>
 
 		<div id="Portfolio" class="tabcontent">
+<<<<<<< HEAD
 			<h3>Portfolio</h3>
 			<p>This is my portfolio</p> 
 			<div class="images">
@@ -62,6 +69,21 @@
 						<p>Rock Paper Scissors</p>
 					</div>
 				</div>
+=======
+		  <h3>Portfolio</h3>
+		  <p>This is my portfolio</p> 
+		    <div class="images">
+			  <img src="http://lorempixel.com/400/200" / width="45%">
+			  <span>Here's the overlay text</span>
+			  <img src="http://lorempixel.com/400/200" / width="45%">
+			  <span>Here's the overlay text</span>
+			  <img src="http://lorempixel.com/400/200" / width="45%">
+			  <span>Here's the overlay text</span>
+			  <img src="http://lorempixel.com/400/200" / width="45%">
+			  <span>Here's the overlay text</span>
+			  <img src="http://lorempixel.com/400/200" / width="45%">
+			  <span>Here's the overlay text</span>
+>>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 			</div>
 		</div>
 
@@ -81,6 +103,7 @@
 
 	</div>
 	<div class="image_links">
+<<<<<<< HEAD
 		<div class="boxy">
 		<h3>Connect with Me</h3>
 			<a href="https://www.linkedin.com/in/christopher-miller-58753396/"><img src="1493335359_linkedin_square_color.png" style="width:82px; height:86px" title="LinkedIn" alt="LinkedIn Link"></a>
@@ -91,11 +114,22 @@
 
 	<footer>
 		<p>© Copyright 2017 Christopher Miller</p>
+=======
+	<h3>Connect with Me</h3>
+		<a href="https://www.linkedin.com/in/christopher-miller-58753396/"><img src="1493335359_linkedin_square_color.png" style="width:82px; height:86px" title="LinkedIn" alt="LinkedIn Link"></a>
+		<a href="https://stackoverflow.com/users/7839227/chalmiller"><img src="1493335283_Stack_Overflow.png" style="width:82px; height:86px" title="Stack Overflow" alt="Stack Overflow Link"></a>
+		<a href="https://github.com/Chalmiller"><img src="1493335249_mark-github.png" style="width:82px; height:86px" title="Github" alt="Github Link"></a>
+	</div>
+
+	<footer>
+	  <p>© Copyright 2017 Christopher Miller</p>
+>>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 	</footer>
 </div>
 
 <script>
 
+<<<<<<< HEAD
 // function openCity(evt, cityName) {
 //     // Declare all variables
 //     var i, tabcontent, tablinks;
@@ -118,6 +152,30 @@
 // }
 
 // openCity(event,'About');
+=======
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+openCity(event, 'About');
+>>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 
 </script>
 
