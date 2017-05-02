@@ -1,5 +1,4 @@
 h1 {
-<<<<<<< HEAD
     background-color: #4aaaa5;
     float: left;
     padding:15px;
@@ -11,20 +10,11 @@ h1 {
 p {
 	color: #777777;
 	position: relative;
-=======
-    background-color: #40E0D0;
-    float: left;
-    background-blend-mode: 
-}
-p {
-	color: #777777;
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 }
 h3 {
 	color: #4aaaa5;
 	border-bottom: 	#D3D3D3;
 	border-bottom-style: solid;
-<<<<<<< HEAD
 	margin-left: 10px;
 	margin-right: 10px;
 	font-family:  Times;
@@ -34,23 +24,13 @@ body {
     margin: 0 0 960px;
     margin-left: auto;
     margin-right: auto;
-    font-family: sans-serif;
+    font-family: sans;
 }
 
 img {
     width: 100%;
 }
 
-=======
-}
-
-body {
-	width: 650px;
-    margin: 0 0 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 footer {
     position: relative;
     left: 0;
@@ -73,10 +53,7 @@ div.tab {
     background-color: #f1f1f1;
     float: left;
     width: 100%;
-<<<<<<< HEAD
     border-right: 1px;
-=======
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 }
 
 div.tab button {
@@ -96,7 +73,6 @@ div.tab button:hover {
 div.tab button.active {
     background-color: #ccc;
 }
-<<<<<<< HEAD
 .wrapper {
 	width : 59%;
 	float: left;
@@ -107,8 +83,6 @@ div.tab button.active {
 	background-color: white;
 	padding-left: 5px;
 }
-=======
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 
 .tabcontent {
     display: none;
@@ -117,29 +91,19 @@ div.tab button.active {
     border-top: none;
     background-color: white;
 }
-<<<<<<< HEAD
 
-=======
-.wrapper {
-	width : 60%;
-	float: left;
-}
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 .image_links {
 	width: 40%;
 	float:left;
 }
 .floater {
 	float: right;
-<<<<<<< HEAD
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-=======
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
 }
 .whole_center {
 	width: 960px;
@@ -148,7 +112,6 @@ div.tab button.active {
 }
 .images {
 	position: relative;
-<<<<<<< HEAD
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
@@ -225,12 +188,3 @@ div.tab button.active {
 	width: 49%;
 	display: inline-block;
 }
-=======
-}
-
-.images span {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-}
->>>>>>> 503c1d8b190eace5b748558c8aed64fa466c8d86
